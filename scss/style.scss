@@ -6,6 +6,7 @@
 @import '../node_modules/bootstrap/scss/_carousel';
 @import './default';
 @import './mixin';
+$blue: #008ed6;
 .header{
 	min-height: 100vh;
 	max-width: 100%;
@@ -18,9 +19,11 @@
 	left: 0;
 	top: 0;
 	width: 100%;
+	background-color: #17151c;
+	padding: 1rem 0;
+	z-index: 1000;
 	&__content{
-		@include space-between;	
-		padding-top: 1rem;
+		@include space-between;
 	}
 }
 .logo{
@@ -48,7 +51,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: #2f293b;
+	background-color: #17151c;
 	width: 100%;
 	height: 100%;
 	@include flex-center;
@@ -65,7 +68,7 @@
 		&::before,&::after{
 			position: absolute;
 			content: '';
-			background-color: #008ed6;
+			background-color: $blue;
 			width: 20px;
 			height: 2px;
 			top: 30px;
@@ -91,7 +94,7 @@
 		&::before,&::after{
 			position: absolute;
 			content: '';
-			background-color: #008ed6;
+			background-color: $blue;
 			width: 20px;
 			height: 2px;
 			top: 30px;
@@ -113,4 +116,53 @@
 }
 .nav.active{
 	transform: translateX(0);
+}
+.banner{
+	padding-top: 9.375rem;
+	&__span{
+		text-transform: uppercase;
+		font-size: 0.875rem;
+		color: $blue;
+		font-weight: 700;
+	}
+	&__title{
+		font-size: 3rem;
+		font-weight: 700;
+		color: #fff;
+		line-height: 3rem;
+		margin: 20px 0;
+	}
+	&__text{
+		color: #999;
+		font-size: 18px;
+		font-weight: 400;
+		margin-bottom: 3.125rem;
+	}
+	&__image{
+		display: none;
+	}
+	&__img{
+		width: 100%;
+	}
+	&__buttons{
+		@include flex-center;
+		flex-direction: column;
+	}
+	&__btn{
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+		width: 160px;
+		text-align: center;
+		padding: 20px 0;
+		border: 1px solid rgba(255,255,255,0.2);
+		margin-bottom: 1.25rem;
+		border-radius: 5px;
+		transition: .4s ease-in-out;
+		&:hover{
+			background-color: $blue;
+			border: 1px solid $blue;
+		}
+	}
 }
