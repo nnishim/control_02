@@ -1,0 +1,18 @@
+@media screen and (min-width: 992px){
+	.nav{
+		position: static;
+		background-color: unset;
+		width: unset;
+		height: unset;
+		justify-content: unset;
+		flex-direction: unset;
+		transform: unset;
+		&__link{
+			margin: 0;
+			margin-right: 30px;
+		}
+	}
+	.hamburger{
+		display: none !important;
+	}
+}
