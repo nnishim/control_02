@@ -5304,9 +5304,11 @@ body.lock {
 }
 
 .header {
-  min-height: 100vh;
+  min-height: 640px;
   max-width: 100%;
+  overflow: hidden;
   background: linear-gradient(135deg, #17151cdc 0%, #17151cea 100%), url(../img/header_bg.jpg) center center no-repeat;
+  margin-bottom: 4.0625rem;
 }
 
 .navbar {
@@ -5325,6 +5327,7 @@ body.lock {
 }
 
 .logo {
+  text-transform: uppercase;
   font-size: 1.5rem;
   color: #ffffff;
   font-weight: 700;
@@ -5422,6 +5425,16 @@ body.lock {
 .banner {
   padding-top: 9.375rem;
 }
+.banner__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner__info {
+  max-width: 490px;
+  margin: 0 auto;
+  text-align: center;
+}
 .banner__span {
   text-transform: uppercase;
   font-size: 0.875rem;
@@ -5469,6 +5482,81 @@ body.lock {
 .banner__btn:hover {
   background-color: #008ed6;
   border: 1px solid #008ed6;
+}
+
+.top-text {
+  text-align: center;
+}
+
+.top-span {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: #008ed6;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0.9375rem;
+}
+
+.top-title {
+  font-size: 2.25rem;
+  color: #1a1a1a;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 6.25rem;
+}
+.top-title::before, .top-title::after {
+  position: absolute;
+  content: "";
+  background-color: #008ed6;
+  width: 20px;
+  height: 2px;
+  top: 120px;
+}
+.top-title::before {
+  left: 50%;
+  transform: translateX(-105%);
+}
+.top-title::after {
+  transform: translateX(5%);
+  left: 50%;
+}
+
+.overview {
+  min-height: 28.125rem;
+  border-bottom: 1px solid #ededed;
+  width: 100%;
+  margin-bottom: 4.0625rem;
+}
+.overview__card {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.overview__card-info {
+  max-width: 230px;
+  margin: 0 auto;
+}
+.overview__card-title {
+  font-size: 24px;
+  color: #1a1a1a;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.overview__card-text {
+  font-size: 18px;
+  color: #999;
+  font-weight: 400;
+  line-height: 27px;
+}
+.overview__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 89px;
+  height: 89px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 2.1875rem;
 }
 
 /*# sourceMappingURL=style.css.map */

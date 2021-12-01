@@ -1,3 +1,21 @@
+@media screen and (min-width: 399px){
+	.top-title{
+		&::before,&::after{
+			top: 75px;
+		}
+	}
+}
+@media screen and (min-width: 768px){
+	.banner{
+		&__buttons{
+			flex-direction: row;
+		}
+		&__btn{
+			margin: 0;
+			margin-right: 20px;
+		}
+	}
+}
 @media screen and (min-width: 992px){
 	.nav{
 		position: static;
@@ -14,5 +32,19 @@
 	}
 	.hamburger{
 		display: none !important;
+	}
+	.banner{
+		&__info{
+			text-align: unset;
+			margin: 0;
+		}
+		&__image{
+			display: block;
+			margin-bottom: -120px;
+		}
+		&__buttons{
+			flex-direction: row;
+			justify-content: unset;
+		}
 	}
 }

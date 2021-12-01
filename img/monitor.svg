@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 29" width="35" height="29">
+	<title>Monitor</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #008ed6 } 
+	</style>
+	<path id="Monitor" class="shp0" d="M32 3.99L32 20.99L4 20.99L4 3.99L32 3.99M32 1.99L4 1.99C2.9 1.99 2 2.89 2 3.99L2 20.99C2 22.09 2.9 22.99 4 22.99L32 22.99C33.1 22.99 34 22.09 34 20.99L34 3.99C34 2.89 33.1 1.99 32 1.99L32 1.99ZM19 22L19 26L24 26C24.55 26 25 26.45 25 27C25 27.55 24.55 28 24 28L12 28C11.45 28 11 27.55 11 27C11 26.45 11.45 26 12 26L17 26L17 22L19 22Z" />
+</svg>
