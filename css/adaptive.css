@@ -43,6 +43,17 @@
     flex-direction: row;
     justify-content: unset;
   }
+
+  .details__info {
+    margin: 0;
+    text-align: unset;
+  }
+  .details__image {
+    display: block;
+  }
+  .details__title::before, .details__title::after {
+    left: 25px;
+  }
 }
 
 /*# sourceMappingURL=adaptive.css.map */

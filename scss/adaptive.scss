@@ -47,4 +47,18 @@
 			justify-content: unset;
 		}
 	}
+	.details{
+		&__info{
+			margin: 0;
+			text-align: unset;
+		}
+		&__image{
+			display: block;
+		}
+		&__title{
+			&::before,&::after{
+				left: 25px;
+			}
+		}
+	}
 }
