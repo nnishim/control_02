@@ -218,6 +218,7 @@ $text-gray: #999;
 	border-bottom: 1px solid #ededed;
 	width: 100%;
 	margin-bottom: 4.0625rem;
+	background: #fff;
 	&__card{
 		text-align: center;
 		margin-bottom: 50px;
@@ -249,6 +250,7 @@ $text-gray: #999;
 	}
 }
 .details{
+	background: #fff;
 	margin-bottom: 1.25rem;
 	&__content{
 		@include space-between;
@@ -290,4 +292,42 @@ $text-gray: #999;
 	padding: 100px 0;
 	margin: 0;
 	background-color: #f2f2f2;
+}
+.pricing{
+	min-height: 640px;
+	position: relative;
+	padding-top: 65px;
+	&::before{
+		content: '';
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -1;
+    background:
+			linear-gradient(135deg, #17151caf 0%, #17151caf 100%),
+			url(../img/slider-bg.jpg) center / cover no-repeat;
+    filter: blur(3px);
+	}
+	&__title{
+		color: #fff;
+		&::before,&::after{
+			top: 70px;
+		}
+	}
+	&-carousel{
+		&__item{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		&__text{
+			font-size: 24px;
+			font-style: italic;
+			color: #fff;
+			max-width: 547px;
+		}
+	}
+}
+.carousel-indicators{
+	margin-bottom: -130px;
 }
