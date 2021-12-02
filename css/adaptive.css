@@ -68,6 +68,14 @@
   .pricing-carousel__left {
     margin: 0;
   }
+
+  .advertising__content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .advertising__question {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=adaptive.css.map */

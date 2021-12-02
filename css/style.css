@@ -5612,7 +5612,7 @@ body.lock {
 .pricing {
   min-height: 640px;
   position: relative;
-  padding-top: 65px;
+  padding: 65px 0;
   overflow: hidden;
 }
 .pricing::before {
@@ -5683,6 +5683,26 @@ body.lock {
   border-radius: 50%;
   width: 15px;
   height: 15px;
+}
+
+.advertising {
+  padding: 60px 0;
+  background-color: #15141a;
+}
+.advertising__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.advertising__question {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.advertising__span {
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */

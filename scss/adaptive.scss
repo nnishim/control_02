@@ -78,4 +78,13 @@
 			}
 		}
 	}
+	.advertising{
+		&__content{
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		&__question{
+			margin: 0;
+		}
+	}
 }
