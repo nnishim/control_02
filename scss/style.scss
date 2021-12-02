@@ -385,3 +385,61 @@ $text-gray: #999;
 		font-weight: 300;
 	}
 }
+.price{
+	&__title{
+		color: $text-black;
+	}
+	&__card{
+		margin: 0 auto;
+		text-align: center;
+		border: 1px solid #e0e0e0;
+		padding: 1.875rem 0;
+		margin-bottom: 30px;
+		&-name{
+			padding-bottom: 1.875rem;
+			text-transform: uppercase;
+			font-size: 1.5rem;
+			font-weight: bold;
+			border-bottom: 1px solid #e0e0e0;
+		}
+		&-price{
+			padding: 35px 0;
+			border-bottom: 1px solid #e0e0e0;
+		}
+		&-pricing{
+			font-size: 48px;
+			font-weight: 600;
+		}
+		&-term{
+			font-size: 18px;
+			font-weight: 400;
+			color: $text-gray;
+		}
+		&-info{
+			padding: 50px 0;
+		}
+		&-text{
+			max-width: 196px;
+			font-size: 1.125rem;
+			font-weight: 400;
+			color: $text-gray;
+			margin: 0 auto;
+		}
+		&-btn{
+			padding: 20px 0;
+			width: 160px;
+			text-transform: uppercase;
+			color: $blue;
+			font-size: 14px;
+			font-weight: bold;
+			border-radius: 5px;
+			border: 1px solid #e0e0e0;
+			transition: .4s ease-in-out;
+			&:hover{
+				border: 1px solid $blue;
+				background-color: $blue;
+				color: #fff;
+			}
+		}
+	}
+}

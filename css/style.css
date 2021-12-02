@@ -5705,4 +5705,61 @@ body.lock {
   font-weight: 300;
 }
 
+.price__title {
+  color: #1a1a1a;
+}
+.price__card {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  padding: 1.875rem 0;
+  margin-bottom: 30px;
+}
+.price__card-name {
+  padding-bottom: 1.875rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #e0e0e0;
+}
+.price__card-price {
+  padding: 35px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.price__card-pricing {
+  font-size: 48px;
+  font-weight: 600;
+}
+.price__card-term {
+  font-size: 18px;
+  font-weight: 400;
+  color: #999;
+}
+.price__card-info {
+  padding: 50px 0;
+}
+.price__card-text {
+  max-width: 196px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #999;
+  margin: 0 auto;
+}
+.price__card-btn {
+  padding: 20px 0;
+  width: 160px;
+  text-transform: uppercase;
+  color: #008ed6;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  transition: 0.4s ease-in-out;
+}
+.price__card-btn:hover {
+  border: 1px solid #008ed6;
+  background-color: #008ed6;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
