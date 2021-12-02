@@ -54,6 +54,12 @@
   .details__title::before, .details__title::after {
     left: 25px;
   }
+  .details__list-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
 }
 
 /*# sourceMappingURL=adaptive.css.map */

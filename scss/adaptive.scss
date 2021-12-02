@@ -60,5 +60,11 @@
 				left: 25px;
 			}
 		}
+		&__list-item{
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			margin-bottom: 20px;
+		}
 	}
 }

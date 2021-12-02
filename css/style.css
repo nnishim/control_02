@@ -5559,6 +5559,9 @@ body.lock {
   margin-bottom: 2.1875rem;
 }
 
+.details {
+  margin-bottom: 1.25rem;
+}
 .details__content {
   display: flex;
   align-items: center;
@@ -5568,6 +5571,9 @@ body.lock {
   text-align: center;
   max-width: 468px;
   margin: 0 auto;
+}
+.details__title {
+  margin-bottom: 70px;
 }
 .details__text {
   color: #999;
@@ -5584,6 +5590,7 @@ body.lock {
 .details__list-item {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -5592,6 +5599,12 @@ body.lock {
   font-size: 18px;
   font-weight: 400;
   margin-left: 7px;
+}
+
+.details--gray {
+  padding: 100px 0;
+  margin: 0;
+  background-color: #f2f2f2;
 }
 
 /*# sourceMappingURL=style.css.map */
