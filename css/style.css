@@ -5613,14 +5613,15 @@ body.lock {
   min-height: 640px;
   position: relative;
   padding-top: 65px;
+  overflow: hidden;
 }
 .pricing::before {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  bottom: -10px;
   z-index: -1;
   background: linear-gradient(135deg, #17151caf 0%, #17151caf 100%), url(../img/slider-bg.jpg) center/cover no-repeat;
   filter: blur(3px);
@@ -5634,17 +5635,54 @@ body.lock {
 .pricing-carousel__item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .pricing-carousel__text {
   font-size: 24px;
   font-style: italic;
   color: #fff;
   max-width: 547px;
+  margin-bottom: 25px;
+}
+.pricing-carousel__left {
+  margin-bottom: 3.125rem;
+}
+.pricing-carousel__bottom {
+  display: flex;
+  align-items: center;
+}
+.pricing-carousel__bottom-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.pricing__name {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.pricing__work {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.pricing__icon {
+  width: 59px;
+  height: 59px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .carousel-indicators {
-  margin-bottom: -130px;
+  margin-bottom: -170px;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -60,6 +60,14 @@
     justify-content: flex-start;
     margin-bottom: 20px;
   }
+
+  .pricing-carousel__item {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .pricing-carousel__left {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=adaptive.css.map */

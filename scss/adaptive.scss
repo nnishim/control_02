@@ -67,4 +67,15 @@
 			margin-bottom: 20px;
 		}
 	}
+	.pricing{
+		&-carousel{
+			&__item{
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			&__left{
+				margin: 0;
+			}
+		}
+	}
 }
