@@ -11,6 +11,10 @@
     margin: 0;
     margin-right: 20px;
   }
+
+  .contact__info-text {
+    margin: 0;
+  }
 }
 @media screen and (min-width: 992px) {
   .nav {
@@ -79,6 +83,10 @@
   }
   .advertising__question {
     margin: 0;
+  }
+
+  .price__card {
+    margin-bottom: 0;
   }
 }
 

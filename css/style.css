@@ -5450,7 +5450,7 @@ body.lock {
 }
 .banner__text {
   color: #999;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   margin-bottom: 3.125rem;
 }
@@ -5469,11 +5469,11 @@ body.lock {
 .banner__btn {
   text-transform: uppercase;
   color: #fff;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
   width: 160px;
   text-align: center;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-bottom: 1.25rem;
   border-radius: 5px;
@@ -5530,23 +5530,23 @@ body.lock {
 }
 .overview__card {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 .overview__card-info {
   max-width: 230px;
   margin: 0 auto;
 }
 .overview__card-title {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #1a1a1a;
   font-weight: 400;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 .overview__card-text {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #999;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 1.6875rem;
 }
 .overview__image {
   display: flex;
@@ -5575,13 +5575,13 @@ body.lock {
   margin: 0 auto;
 }
 .details__title {
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 .details__text {
   color: #999;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .details__image {
   display: none;
@@ -5598,13 +5598,13 @@ body.lock {
 
 .list-item__span {
   color: #1a1a1a;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  margin-left: 7px;
+  margin-left: 0.4375rem;
 }
 
 .details--gray {
-  padding: 100px 0;
+  padding: 6.25rem 0;
   margin: 0;
   background-color: #f2f2f2;
 }
@@ -5612,7 +5612,7 @@ body.lock {
 .pricing {
   min-height: 640px;
   position: relative;
-  padding: 65px 0;
+  padding: 4.0625rem 0;
   overflow: hidden;
 }
 .pricing::before {
@@ -5638,7 +5638,7 @@ body.lock {
   flex-direction: column;
 }
 .pricing-carousel__text {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: italic;
   color: #fff;
   max-width: 547px;
@@ -5657,14 +5657,14 @@ body.lock {
   margin-left: 20px;
 }
 .pricing__name {
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
   font-weight: 400;
   margin-bottom: 10px;
 }
 .pricing__work {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
   color: #fff;
 }
@@ -5676,7 +5676,7 @@ body.lock {
 }
 
 .carousel-indicators {
-  margin-bottom: -55px;
+  margin-bottom: -3.4375rem;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -5686,7 +5686,7 @@ body.lock {
 }
 
 .advertising {
-  padding: 60px 0;
+  padding: 3.75rem 0;
   background-color: #15141a;
 }
 .advertising__content {
@@ -5697,16 +5697,16 @@ body.lock {
 }
 .advertising__question {
   color: #fff;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 .advertising__span {
   font-weight: 300;
 }
 
 .price {
-  padding: 60px 0;
+  padding: 3.75rem 0;
 }
 .price__title {
   color: #1a1a1a;
@@ -5717,7 +5717,7 @@ body.lock {
   text-align: center;
   border: 1px solid #e0e0e0;
   padding: 1.875rem 0;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
@@ -5737,21 +5737,21 @@ body.lock {
 }
 .price__card-price {
   transition: 0.5s ease-in-out;
-  padding: 35px 0;
+  padding: 2.1875rem 0;
   border-bottom: 1px solid #e0e0e0;
 }
 .price__card-pricing {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
 }
 .price__card-term {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   color: #999;
   transition: 0.5s ease-in-out;
 }
 .price__card-info {
-  padding: 50px 0;
+  padding: 3.125rem 0;
 }
 .price__card-text {
   max-width: 196px;
@@ -5764,11 +5764,11 @@ body.lock {
   color: #008ed6;
 }
 .price__card-btn {
-  padding: 20px 0;
+  padding: 1.25rem 0;
   width: 160px;
   text-transform: uppercase;
   color: #008ed6;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
@@ -5778,6 +5778,31 @@ body.lock {
   border: 1px solid #008ed6;
   background-color: #008ed6;
   color: #fff;
+}
+
+.contact {
+  min-height: 720px;
+  background-color: #ededed;
+  padding: 3.75rem 0;
+}
+.contact__title::before, .contact__title::after {
+  top: 70px;
+}
+.contact__info {
+  align-items: flex-start;
+}
+.contact__info-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contact__info-img {
+  margin-bottom: 1.875rem;
+}
+.contact__info-span {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #999;
 }
 
 /*# sourceMappingURL=style.css.map */

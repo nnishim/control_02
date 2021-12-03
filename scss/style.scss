@@ -147,7 +147,7 @@ $text-gray: #999;
 	}
 	&__text{
 		color: $text-gray;
-		font-size: 18px;
+		font-size: 1.125rem;
 		font-weight: 400;
 		margin-bottom: 3.125rem;
 	}
@@ -164,11 +164,11 @@ $text-gray: #999;
 	&__btn{
 		text-transform: uppercase;
 		color: #fff;
-		font-size: 14px;
+		font-size: 0.875rem;
 		font-weight: bold;
 		width: 160px;
 		text-align: center;
-		padding: 20px 0;
+		padding: 1.25rem 0;
 		border: 1px solid rgba(255,255,255,0.2);
 		margin-bottom: 1.25rem;
 		border-radius: 5px;
@@ -221,22 +221,22 @@ $text-gray: #999;
 	background: #fff;
 	&__card{
 		text-align: center;
-		margin-bottom: 50px;
+		margin-bottom: 3.125rem;
 		&-info{
 			max-width: 230px;
 			margin: 0 auto;
 		}
 		&-title{
-			font-size: 24px;
+			font-size: 1.5rem;
 			color: $text-black;
 			font-weight: 400;
-			margin-bottom: 15px;
+			margin-bottom: 0.9375rem;
 		}
 		&-text{
-			font-size: 18px;
+			font-size: 1.125rem;
 			color: $text-gray;
 			font-weight: 400;
-			line-height: 27px;
+			line-height: 1.6875rem;
 		}
 	}
 	&__image{
@@ -261,13 +261,13 @@ $text-gray: #999;
 		margin: 0 auto;
 	}
 	&__title{
-		margin-bottom: 70px;
+		margin-bottom: 4.375rem;
 	}
 	&__text{
 		color: $text-gray;
-		font-size: 18px;
+		font-size: 1.125rem;
 		font-weight: 400;
-		margin-bottom: 30px;
+		margin-bottom: 1.875rem;
 	}
 	&__image{
 		display: none;
@@ -284,19 +284,19 @@ $text-gray: #999;
 }
 .list-item__span{
 	color: $text-black;
-	font-size: 18px;
+	font-size: 1.125rem;
 	font-weight: 400;
-	margin-left: 7px;
+	margin-left: 0.4375rem;
 }
 .details--gray{
-	padding: 100px 0;
+	padding: 6.25rem 0;
 	margin: 0;
 	background-color: #f2f2f2;
 }
 .pricing{
 	min-height: 640px;
 	position: relative;
-	padding: 65px 0;
+	padding: 4.0625rem 0;
 	overflow: hidden;
 	&::before{
 		content: '';
@@ -322,7 +322,7 @@ $text-gray: #999;
 			flex-direction: column;
 		}
 		&__text{
-			font-size: 24px;
+			font-size: 1.5rem;
 			font-style: italic;
 			color: #fff;
 			max-width: 547px;
@@ -342,14 +342,14 @@ $text-gray: #999;
 		}
 	}
 	&__name{
-		font-size: 16px;
+		font-size: 1rem;
 		color: #fff;
 		font-weight: 400;
 		margin-bottom: 10px;
 	}
 	&__work{
 		text-transform: uppercase;
-		font-size: 14px;
+		font-size: 0.875rem;
 		font-weight: bold;
 		color: #fff;
 	}
@@ -361,7 +361,7 @@ $text-gray: #999;
 	}
 }
 .carousel-indicators{
-	margin-bottom: -55px;
+	margin-bottom: -3.4375rem;
 }
 .carousel-indicators [data-bs-target]{
 	border-radius: 50%;
@@ -369,7 +369,7 @@ $text-gray: #999;
 	height: 15px;
 }
 .advertising{
-	padding: 60px 0;
+	padding: 3.75rem 0;
 	background-color: #15141a;
 	&__content{
 		@include flex-center;
@@ -377,16 +377,16 @@ $text-gray: #999;
 	}
 	&__question{
 		color: #fff;
-		font-size: 36px;
+		font-size: 2.25rem;
 		font-weight: 600;
-		margin-bottom: 60px;
+		margin-bottom: 3.75rem;
 	}
 	&__span{
 		font-weight: 300;
 	}
 }
 .price{
-	padding: 60px 0;
+	padding: 3.75rem 0;
 	&__title{
 		color: $text-black;
 	}
@@ -396,7 +396,7 @@ $text-gray: #999;
 		text-align: center;
 		border: 1px solid #e0e0e0;
 		padding: 1.875rem 0;
-		margin-bottom: 30px;
+		margin-bottom: 1.875rem;
 		transition: .5s ease-in-out;
 		cursor: pointer;
 		&:hover .price__card-price{
@@ -415,21 +415,21 @@ $text-gray: #999;
 		}
 		&-price{
 			transition: .5s ease-in-out;
-			padding: 35px 0;
+			padding: 2.1875rem 0;
 			border-bottom: 1px solid #e0e0e0;
 		}
 		&-pricing{
-			font-size: 48px;
+			font-size: 3rem;
 			font-weight: 600;
 		}
 		&-term{
-			font-size: 18px;
+			font-size: 1.125rem;
 			font-weight: 400;
 			color: $text-gray;
 			transition: .5s ease-in-out;
 		}
 		&-info{
-			padding: 50px 0;
+			padding: 3.125rem 0;
 		}
 		&-text{
 			max-width: 196px;
@@ -442,11 +442,11 @@ $text-gray: #999;
 			color: $blue;
 		}
 		&-btn{
-			padding: 20px 0;
+			padding: 1.25rem 0;
 			width: 160px;
 			text-transform: uppercase;
 			color: $blue;
-			font-size: 14px;
+			font-size: 0.875rem;
 			font-weight: bold;
 			border-radius: 5px;
 			border: 1px solid #e0e0e0;
@@ -456,6 +456,32 @@ $text-gray: #999;
 				background-color: $blue;
 				color: #fff;
 			}
+		}
+	}
+}
+.contact{
+	min-height: 720px;
+	background-color: #ededed;
+	padding: 3.75rem 0;
+	&__title{
+		&::before,&::after{
+			top: 70px;
+		}
+	}
+	&__info{
+		align-items: flex-start;
+		&-text{
+		text-align: center;
+		margin-bottom: 40px;
+		}
+		&-img{
+			margin-bottom: 1.875rem;
+		}
+		&-span{
+			display: block;
+			font-size: 1.125rem;
+			font-weight: 400;
+			color: $text-gray;
 		}
 	}
 }
