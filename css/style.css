@@ -5846,4 +5846,9 @@ body.lock {
   margin: 0;
 }
 
+#map {
+  width: 100%;
+  min-height: 400px;
+}
+
 /*# sourceMappingURL=style.css.map */
