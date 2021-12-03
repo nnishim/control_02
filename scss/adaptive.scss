@@ -1,5 +1,19 @@
 @media screen and (min-width: 399px){
-	.top-title{
+	.overview__title{
+		&::before,&::after{
+			top: 75px;
+		}
+	}
+}
+@media screen and (min-width: 405px){
+	.details__title--top{
+		&::before,&::after{
+			top: 75px;
+		}
+	}
+}
+@media screen and (min-width: 421px){
+	.details__title{
 		&::before,&::after{
 			top: 75px;
 		}
