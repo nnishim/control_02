@@ -5676,7 +5676,7 @@ body.lock {
 }
 
 .carousel-indicators {
-  margin-bottom: -170px;
+  margin-bottom: -55px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -5705,15 +5705,28 @@ body.lock {
   font-weight: 300;
 }
 
+.price {
+  padding: 60px 0;
+}
 .price__title {
   color: #1a1a1a;
 }
 .price__card {
+  max-width: 270px;
   margin: 0 auto;
   text-align: center;
   border: 1px solid #e0e0e0;
   padding: 1.875rem 0;
   margin-bottom: 30px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.price__card:hover .price__card-price {
+  background: #008ed6;
+  color: #fff;
+}
+.price__card:hover .price__card-term {
+  color: #fff;
 }
 .price__card-name {
   padding-bottom: 1.875rem;
@@ -5723,6 +5736,7 @@ body.lock {
   border-bottom: 1px solid #e0e0e0;
 }
 .price__card-price {
+  transition: 0.5s ease-in-out;
   padding: 35px 0;
   border-bottom: 1px solid #e0e0e0;
 }
@@ -5734,6 +5748,7 @@ body.lock {
   font-size: 18px;
   font-weight: 400;
   color: #999;
+  transition: 0.5s ease-in-out;
 }
 .price__card-info {
   padding: 50px 0;
@@ -5744,6 +5759,9 @@ body.lock {
   font-weight: 400;
   color: #999;
   margin: 0 auto;
+}
+.price__card-span {
+  color: #008ed6;
 }
 .price__card-btn {
   padding: 20px 0;

@@ -361,7 +361,7 @@ $text-gray: #999;
 	}
 }
 .carousel-indicators{
-	margin-bottom: -170px;
+	margin-bottom: -55px;
 }
 .carousel-indicators [data-bs-target]{
 	border-radius: 50%;
@@ -386,15 +386,26 @@ $text-gray: #999;
 	}
 }
 .price{
+	padding: 60px 0;
 	&__title{
 		color: $text-black;
 	}
 	&__card{
+		max-width: 270px;
 		margin: 0 auto;
 		text-align: center;
 		border: 1px solid #e0e0e0;
 		padding: 1.875rem 0;
 		margin-bottom: 30px;
+		transition: .5s ease-in-out;
+		cursor: pointer;
+		&:hover .price__card-price{
+			background: $blue;
+			color: #fff;
+		}
+		&:hover .price__card-term{
+			color: #fff;
+		}
 		&-name{
 			padding-bottom: 1.875rem;
 			text-transform: uppercase;
@@ -403,6 +414,7 @@ $text-gray: #999;
 			border-bottom: 1px solid #e0e0e0;
 		}
 		&-price{
+			transition: .5s ease-in-out;
 			padding: 35px 0;
 			border-bottom: 1px solid #e0e0e0;
 		}
@@ -414,6 +426,7 @@ $text-gray: #999;
 			font-size: 18px;
 			font-weight: 400;
 			color: $text-gray;
+			transition: .5s ease-in-out;
 		}
 		&-info{
 			padding: 50px 0;
@@ -424,6 +437,9 @@ $text-gray: #999;
 			font-weight: 400;
 			color: $text-gray;
 			margin: 0 auto;
+		}
+		&-span{
+			color: $blue;
 		}
 		&-btn{
 			padding: 20px 0;
