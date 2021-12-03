@@ -484,4 +484,45 @@ $text-gray: #999;
 			color: $text-gray;
 		}
 	}
+	&__form{
+		&-bg{
+			background-color: #15141a;
+			max-width: 770px;
+			min-height: 360px;
+			padding: 60px;
+			margin: 0 auto;
+		}
+		&-info{
+			@include flex-center;
+			flex-direction: column;
+			margin: 0 auto;
+		}
+		&-left{
+			max-width: 300px;
+		}
+		&-right{
+			max-width: 300px;
+			flex-grow: 1;
+		}
+		&-input{
+			width: 100%;
+			border: 1px solid rgba(255,255,255,0.2);
+			border-radius: 5px;
+			padding: 20px;
+			background: unset;
+			margin-bottom: 20px;
+			&::placeholder{
+				text-transform: uppercase;
+				font-size: 0.875rem;
+				font-weight: bold;
+			}
+		}
+		&-input--message{
+			padding-bottom: 174px;
+		}
+		&-btn{
+			background: unset;
+			margin: 0;
+		}
+	}
 }
